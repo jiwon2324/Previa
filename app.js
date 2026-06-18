@@ -30,24 +30,24 @@ function closeBookModal() {
 
 
 var calEvents = {
-  '2025-3-3':  [{type:'lecture', title:'1주차 · 정보보호개념',          content:'오리엔테이션, 1장. 개인정보보호',                                     time:'10:30', course:'건강정보보호'}],
-  '2025-3-10': [{type:'lecture', title:'2주차 · 정보보호관련법률',       content:'제2장. 개인정보보호 관련법',                                          time:'10:30', course:'건강정보보호'}],
-  '2025-3-17': [{type:'lecture', title:'3주차 · 정보보호관련법률',       content:'제3장. 건강정보보호 관련 법률 및 규정',                               time:'10:30', course:'건강정보보호'}],
-  '2025-3-24': [{type:'lecture', title:'4주차 · 정보보호관련법률',       content:'제4장. 진료단계별 건강정보보호 및 보안',                              time:'10:30', course:'건강정보보호'}],
-  '2025-3-31': [{type:'lecture', title:'5주차 · 정보처리단계별보호및보안',content:'제5장. 건강정보 처리 단계별 보호 및 보안',                            time:'10:30', course:'건강정보보호'}],
-  '2025-4-7':  [{type:'lecture', title:'6주차 · 정보보호및보안기술',     content:'제7장. 개인건강정보보호 및 보안에 관한 정보기술',                     time:'10:30', course:'건강정보보호'}],
-  '2025-4-14': [{type:'lecture', title:'7주차 · 정보보호평가제도및영향평가방법', content:'제8장. 건강정보보호 평가제도 및 영향평가',                    time:'10:30', course:'건강정보보호'}],
-  '2025-4-21': [{type:'exam',    title:'8주차 · 중간고사',               content:'직무수행능력평가 1차',                                                time:'10:30', course:'건강정보보호'}],
-  '2025-4-28': [{type:'lecture', title:'9주차 · 정보보호및보안교육기획및실행', content:'제6장. 개인건강정보보호 및 보안교육기획·실행관리 - PBL : OT',  time:'10:30', course:'건강정보보호'}],
-  '2025-5-5':  [{type:'lecture', title:'10주차 · 정보보호관련표준과체계', content:'제10장. 건강정보보호 관리사례 - PBL : 활동',                         time:'10:30', course:'건강정보보호'}],
-  '2025-5-12': [{type:'lecture', title:'11주차 · 정보보호및보안교육기획및실행', content:'제9장. 건강정보보호 관련 표준체계 - PBL : 활동',              time:'10:30', course:'건강정보보호'}],
-  '2025-5-19': [{type:'holiday', title:'12주차 · 대체공휴일 휴강',       content:'휴강',                                                                time:'',      course:'건강정보보호'}],
-  '2025-5-26': [{type:'special', title:'13주차 · 현장전문가특강',        content:'현장전문가특강',                                                       time:'10:30', course:'건강정보보호'}],
-  '2025-6-2':  [{type:'lecture', title:'14주차 · PBL 활동발표 1',        content:'PBL 활동발표 1',                                                      time:'10:30', course:'건강정보보호'}],
-  '2025-6-9':  [{type:'lecture', title:'15주차 · PBL 활동발표 2',        content:'PBL 활동발표 2',                                                      time:'10:30', course:'건강정보보호'}],
-  '2025-6-16': [{type:'exam',    title:'16주차 · 기말고사',               content:'직무수행능력평가 2차',                                                time:'10:30', course:'건강정보보호'}],
+  '2026-3-3':  [{type:'lecture', title:'1주차 · 정보보호개념',          content:'오리엔테이션, 1장. 개인정보보호',                                     time:'10:30', course:'건강정보보호'}],
+  '2026-3-10': [{type:'lecture', title:'2주차 · 정보보호관련법률',       content:'제2장. 개인정보보호 관련법',                                          time:'10:30', course:'건강정보보호'}],
+  '2026-3-17': [{type:'lecture', title:'3주차 · 정보보호관련법률',       content:'제3장. 건강정보보호 관련 법률 및 규정',                               time:'10:30', course:'건강정보보호'}],
+  '2026-3-24': [{type:'lecture', title:'4주차 · 정보보호관련법률',       content:'제4장. 진료단계별 건강정보보호 및 보안',                              time:'10:30', course:'건강정보보호'}],
+  '2026-3-31': [{type:'lecture', title:'5주차 · 정보처리단계별보호및보안',content:'제5장. 건강정보 처리 단계별 보호 및 보안',                            time:'10:30', course:'건강정보보호'}],
+  '2026-4-7':  [{type:'lecture', title:'6주차 · 정보보호및보안기술',     content:'제7장. 개인건강정보보호 및 보안에 관한 정보기술',                     time:'10:30', course:'건강정보보호'}],
+  '2026-4-14': [{type:'lecture', title:'7주차 · 정보보호평가제도및영향평가방법', content:'제8장. 건강정보보호 평가제도 및 영향평가',                    time:'10:30', course:'건강정보보호'}],
+  '2026-4-21': [{type:'exam',    title:'8주차 · 중간고사',               content:'직무수행능력평가 1차',                                                time:'10:30', course:'건강정보보호'}],
+  '2026-4-28': [{type:'lecture', title:'9주차 · 정보보호및보안교육기획및실행', content:'제6장. 개인건강정보보호 및 보안교육기획·실행관리 - PBL : OT',  time:'10:30', course:'건강정보보호'}],
+  '2026-5-5':  [{type:'lecture', title:'10주차 · 정보보호관련표준과체계', content:'제10장. 건강정보보호 관리사례 - PBL : 활동',                         time:'10:30', course:'건강정보보호'}],
+  '2026-5-12': [{type:'lecture', title:'11주차 · 정보보호및보안교육기획및실행', content:'제9장. 건강정보보호 관련 표준체계 - PBL : 활동',              time:'10:30', course:'건강정보보호'}],
+  '2026-5-19': [{type:'holiday', title:'12주차 · 대체공휴일 휴강',       content:'휴강',                                                                time:'',      course:'건강정보보호'}],
+  '2026-5-26': [{type:'special', title:'13주차 · 현장전문가특강',        content:'현장전문가특강',                                                       time:'10:30', course:'건강정보보호'}],
+  '2026-6-2':  [{type:'lecture', title:'14주차 · PBL 활동발표 1',        content:'PBL 활동발표 1',                                                      time:'10:30', course:'건강정보보호'}],
+  '2026-6-9':  [{type:'lecture', title:'15주차 · PBL 활동발표 2',        content:'PBL 활동발표 2',                                                      time:'10:30', course:'건강정보보호'}],
+  '2026-6-16': [{type:'exam',    title:'16주차 · 기말고사',               content:'직무수행능력평가 2차',                                                time:'10:30', course:'건강정보보호'}],
 };
-var calTabIdx=0,calYear=2025,calMonth=5,selectedDay=null,editingEventKey=null,currentEditType='lecture';
+var calTabIdx=0,calYear=2026,calMonth=3,selectedDay=null,editingEventKey=null,currentEditType='lecture';
 
 function switchCalTab(idx){calTabIdx=idx;document.querySelectorAll('[id^="caltab-"]').forEach(function(el,i){el.style.background=i===idx?'#2B7FE0':'#F2F4F7';el.style.color=i===idx?'#fff':'#8B919C';});renderCalendar();renderWeekSchedule();}
 function calPrevMonth(){calMonth--;if(calMonth<1){calMonth=12;calYear--;}updateCalMonthLabel();renderCalendar();}
@@ -58,7 +58,7 @@ function getTabEvents(key){var all=calEvents[key]||[];return all.filter(function
 
 function renderCalendar(){
   var grid=document.getElementById('home-cal-grid');if(!grid)return;
-  var today=new Date(2025,4,5);
+  var today=new Date(2026,4,5);
   var firstDay=new Date(calYear,calMonth-1,1).getDay();
   var dim=new Date(calYear,calMonth,0).getDate();
   var cells=[];
@@ -83,7 +83,7 @@ function renderCalendar(){
 
 function renderWeekSchedule(){
   var container=document.getElementById('home-week-schedule');if(!container)return;
-  var today=new Date(2025,4,5);var dow0=today.getDay();
+  var today=new Date(2026,4,5);var dow0=today.getDay();
   var sow=new Date(today);sow.setDate(today.getDate()-dow0);
   var weekEvs=[];
   for(var i=0;i<7;i++){
