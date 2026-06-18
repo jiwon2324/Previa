@@ -1,11 +1,6 @@
-/* ──────────────────────────────────────────────
-   ⚠️  주의: 발표/제출/공유 전에 아래 실제 API 키를
-   반드시 제거하거나 재발급하세요.
-   이 파일은 팀 내부 로컬 테스트 전용입니다.
-────────────────────────────────────────────── */
 var CONFIG = {
-  OPENAI_API_KEY: "",   // 여기에 OpenAI API 키 입력 (예: "sk-...")
-  KOCW_API_KEY: "",     // 여기에 공공데이터포털 KOCW API 키 입력
+  OPENAI_API_KEY: "",
+  KOCW_API_KEY: "",
   KOCW_API_URL: "http://api.data.go.kr/openapi/tn_pubr_public_univ_edu_lctre_api"
 };
 
